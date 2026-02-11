@@ -1,0 +1,23 @@
+# DermaSafe Backend API - Python Dependencies
+# =============================================
+
+# Flask web framework
+Flask==3.0.0
+
+# CORS support for cross-origin requests
+Flask-CORS==4.0.0
+
+# Werkzeug (Flask dependency)
+Werkzeug==3.0.1
+
+# Ollama integration for LLM features
+ollama
+
+# Image processing and OCR
+Pillow>=10.0.0
+numpy>=1.24.0
+easyocr>=1.7.0
+
+# Optional but recommended for production
+# gunicorn==21.2.0  # Production WSGI server
+# python-dotenv==1.0.0  # Environment variable management
